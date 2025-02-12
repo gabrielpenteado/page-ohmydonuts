@@ -2,9 +2,29 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/donut.svg" />
+    <link rel="preload" href="screenshot.webp" as="image" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Oh My Donuts</title>
+    <meta name="author" content="Gabriel Penteado" />
+    <meta
+      name="description"
+      content=" A Vue and Vuex-based app for easily placing and managing donut orders, featuring reusable form components and custom SASS-styled buttons."
+    />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-1D2MMWL8M5"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-1D2MMWL8M5");
+    </script>
   </head>
   <body>
     <div id="app"></div>
